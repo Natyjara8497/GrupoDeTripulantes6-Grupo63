@@ -1,4 +1,42 @@
-h1 {text-align: center;
-    color: blue;
-    font-size:4em;/* 1 em equivale a 16px */
+:root{
+
+    --blanco:#fff;
+    --negro:#000;
+    --gris: #757575;
+    --secundario:#33bef59d;
+
 }
+
+html{
+    font-size: 110%;
+}
+
+body{
+    font-size: 16px;
+    font-family:"krub", sans-serif;
+}
+
+.titulo{
+
+    text-align: center;
+    font-size: 3em;
+    color: #333CFF;
+    font-weight: 1000;    
+}
+
+.contenedor{
+
+    width: 120rem;
+    margin: auto;
+}
+
+.nav-bg {
+
+    background-color: var(--secundario);
+}
+
+.navegacion-principal{
+
+    padding: 1rem;
+}
+
